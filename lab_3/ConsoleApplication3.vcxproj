@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{3067F036-4B15-4E99-91C9-58BA14DE102F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>lab_3</RootNamespace>
+    <RootNamespace>ConsoleApplication3</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
     <ProjectName>Lab_3</ProjectName>
   </PropertyGroup>
