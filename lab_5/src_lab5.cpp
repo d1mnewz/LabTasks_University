@@ -51,6 +51,8 @@ void main()
 	vector<int> fifth;
 	fifth = InitV(fifth);
 
+	cout << "KI-17 Lab 5" << endl;
+
 	Print(first, 11);
 	Print(second, 14);
 	Print(third, 16);
