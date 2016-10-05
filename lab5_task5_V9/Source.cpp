@@ -25,5 +25,5 @@ void main()
 			count++;
 		}
 	}
-	cout << "max value = " << max << "count = " << count << endl;
+	cout << "max value = " << max << " count = " << count << endl;
 }
