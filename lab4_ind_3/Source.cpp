@@ -22,3 +22,4 @@ void main()
 		cout << max << "index " << index << endl;
 	}
 }
+
