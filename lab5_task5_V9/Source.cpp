@@ -8,12 +8,12 @@ void main()
 	int tmp = 0;
 	int max = 0;
 	int count = 0;
-	for (int i = 0; i < 5; i++)
+	for (int i = 0; i < 25; i++)
 	{
 		cin >> tmp;
 		data.push_back(tmp);
 	}
-	for (int i = 0; i < 5; i++)
+	for (int i = 0; i < 25; i++)
 	{
 		if (data[i] > max)
 		{

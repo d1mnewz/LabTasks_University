@@ -7,7 +7,7 @@ void main()
 	for (double i = 0.1; i < 10; i += 0.1)
 	{
 		result *= 1 + sin(i);
-		cout << result << endl;
+		//cout << result << endl;
 	}
 	cout << result << endl;
 }

@@ -19,7 +19,6 @@ void main()
 				index = i;
 			}
 		}
-		cout << max << "index " << index << endl;
+		cout << max << " index " << index << endl;
 	}
 }
-
