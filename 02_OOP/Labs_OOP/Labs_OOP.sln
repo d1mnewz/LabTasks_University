@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_overloading", "Labs_OOP\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_IOfiles", "02_IOfiles\02_IOfiles.csproj", "{6897E0DE-61DE-47FF-B32B-AF6516A5ED6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_MatrixZeros", "03_MatrixZeros\03_MatrixZeros.csproj", "{46B52C5C-F730-49E4-8732-3C226C782068}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6897E0DE-61DE-47FF-B32B-AF6516A5ED6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6897E0DE-61DE-47FF-B32B-AF6516A5ED6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6897E0DE-61DE-47FF-B32B-AF6516A5ED6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B52C5C-F730-49E4-8732-3C226C782068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B52C5C-F730-49E4-8732-3C226C782068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B52C5C-F730-49E4-8732-3C226C782068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B52C5C-F730-49E4-8732-3C226C782068}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
