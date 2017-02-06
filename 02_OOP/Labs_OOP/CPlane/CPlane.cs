@@ -36,7 +36,6 @@ namespace CPlane
             this.PassengersLimit = passengerLim;
             this.FuelKmRatio = fuelRatio;
         }
-
         public void AddFuel(double fuel)
         {
             Console.WriteLine("Adding {0} fuel...", fuel);
@@ -51,7 +50,6 @@ namespace CPlane
                 this._currFuel -= fuel;
             else Console.WriteLine("Argument fuel < 0\n");
         }
-
         public void AddPassengers(int pass)
         {
             Console.WriteLine("Seating {0} passengers...", pass);
@@ -94,6 +92,44 @@ namespace CPlane
             Console.WriteLine($"Current passengers - {this.CurrPassengers}");
             Console.WriteLine("===========================");
         }
+
+
+        // to overload operators +, - , (), >
+        public static CPlane operator +(CPlane left, CPlane right)
+        {
+            return new CPlane(left.RaceName + right.RaceName,
+                left.FuelLimit + right.FuelLimit,
+                left.PassengersLimit + right.PassengersLimit,
+                left.FuelKmRatio + right.FuelKmRatio);
+        }
+        public static CPlane operator -(CPlane left, CPlane right)
+        {
+            if (left.FuelKmRatio > right.FuelKmRatio && left.PassengersLimit > right.PassengersLimit && left.FuelLimit > right.FuelLimit)
+            {
+                return new CPlane("Unexpected Plane",
+                    left.FuelLimit - right.FuelLimit,
+                    left.PassengersLimit - right.PassengersLimit,
+                    left.FuelKmRatio - right.FuelKmRatio);
+            }
+            else
+            {
+                Console.WriteLine("Error!\nImpossible to minus.\n");
+                return null;
+            }
+        }
+        public static bool operator >(CPlane left, CPlane right)
+        {
+            if (left.FuelLimit > right.FuelLimit && left.PassengersLimit > right.PassengersLimit)
+                return true;
+            else return false;
+        }
+        public static bool operator <(CPlane left, CPlane right)
+        {
+            if (left.FuelLimit < right.FuelLimit && left.PassengersLimit < right.PassengersLimit)
+                return true;
+            else return false;
+        }
+        
 
     }
 }

@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_IOfiles", "02_IOfiles\02
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_MatrixZeros", "03_MatrixZeros\03_MatrixZeros.csproj", "{46B52C5C-F730-49E4-8732-3C226C782068}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_CPlane", "CPlane\04_CPlane.csproj", "{F657200C-8091-4184-BEEC-A6B3808E2F9B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_CPlane 05_CPlane_ext", "CPlane\04_CPlane 05_CPlane_ext.csproj", "{F657200C-8091-4184-BEEC-A6B3808E2F9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
