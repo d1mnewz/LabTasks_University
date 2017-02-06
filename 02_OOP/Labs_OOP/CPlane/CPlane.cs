@@ -95,6 +95,8 @@ namespace CPlane
 
 
         // to overload operators +, - , (), >
+
+            // in c# u cant overload ()
         public static CPlane operator +(CPlane left, CPlane right)
         {
             return new CPlane(left.RaceName + right.RaceName,
