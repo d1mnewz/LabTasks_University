@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_IOfiles", "02_IOfiles\02
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_MatrixZeros", "03_MatrixZeros\03_MatrixZeros.csproj", "{46B52C5C-F730-49E4-8732-3C226C782068}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_CPlane", "CPlane\04_CPlane.csproj", "{F657200C-8091-4184-BEEC-A6B3808E2F9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{46B52C5C-F730-49E4-8732-3C226C782068}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46B52C5C-F730-49E4-8732-3C226C782068}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46B52C5C-F730-49E4-8732-3C226C782068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F657200C-8091-4184-BEEC-A6B3808E2F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F657200C-8091-4184-BEEC-A6B3808E2F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F657200C-8091-4184-BEEC-A6B3808E2F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F657200C-8091-4184-BEEC-A6B3808E2F9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

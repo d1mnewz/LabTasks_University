@@ -19,10 +19,10 @@ namespace _02_IOfiles
             int size = Convert.ToInt32(Console.ReadLine());
             File.WriteAllText("result.txt",
                 String.Format($"{name}\nDeposit amount - {size}\n1 month - {CountProfit(size, 1, 4)}\n3 month - {CountProfit(size, 3, 4)}\n6 month - {CountProfit(size, 6, 4)}\n12 month - {CountProfit(size, 12, 4)}"));
-            Console.WriteLine(CountProfit(size, 1, 4));
-            Console.WriteLine(CountProfit(size, 3, 4));
-            Console.WriteLine(CountProfit(size, 6, 4));
-            Console.WriteLine(CountProfit(size, 12, 4));
+            //Console.WriteLine(CountProfit(size, 1, 4));
+            //Console.WriteLine(CountProfit(size, 3, 4));
+            //Console.WriteLine(CountProfit(size, 6, 4));
+            //Console.WriteLine(CountProfit(size, 12, 4));
             //Console.WriteLine(CountProfit(size, 12, 4, true));
         }
 
