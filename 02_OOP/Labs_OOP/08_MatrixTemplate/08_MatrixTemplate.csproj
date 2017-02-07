@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F31B59F2-4B45-4C5C-94FE-6CC9736C1AD6}</ProjectGuid>
+    <ProjectGuid>{3D958FD2-8A90-479E-92E6-F653AF714DCE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_07_FatherWorker</RootNamespace>
-    <AssemblyName>07_FatherWorker</AssemblyName>
+    <RootNamespace>_08_MatrixTemplate</RootNamespace>
+    <AssemblyName>08_MatrixTemplate</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FatherWorker.cs" />
-    <Compile Include="IHuman.cs" />
-    <Compile Include="IFather.cs" />
-    <Compile Include="IWorker.cs" />
+    <Compile Include="Matrix.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

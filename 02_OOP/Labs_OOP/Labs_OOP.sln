@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Inheritance", "06_Inheri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_FatherWorker", "07_FatherWorker\07_FatherWorker.csproj", "{F31B59F2-4B45-4C5C-94FE-6CC9736C1AD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_MatrixTemplate", "08_MatrixTemplate\08_MatrixTemplate.csproj", "{3D958FD2-8A90-479E-92E6-F653AF714DCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{F31B59F2-4B45-4C5C-94FE-6CC9736C1AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F31B59F2-4B45-4C5C-94FE-6CC9736C1AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F31B59F2-4B45-4C5C-94FE-6CC9736C1AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D958FD2-8A90-479E-92E6-F653AF714DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D958FD2-8A90-479E-92E6-F653AF714DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D958FD2-8A90-479E-92E6-F653AF714DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D958FD2-8A90-479E-92E6-F653AF714DCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
